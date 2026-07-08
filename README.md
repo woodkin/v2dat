@@ -31,7 +31,7 @@ geoip_xxx.txt
 指定输出目录：
 
 ```
-v2dat.exe unpack geoip -d output geoip.dat
+v2dat.exe unpack geoip -o output geoip.dat
 ```
 
 结果会放到：
@@ -94,7 +94,7 @@ D:\v2dat\geosite.dat
 ```
 cd /d D:\v2dat
 
-v2dat.exe unpack geosite -d out geosite.dat
+v2dat.exe unpack geosite -o out geosite.dat
 ```
 
 生成：
